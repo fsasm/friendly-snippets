@@ -288,7 +288,7 @@
         ]
     },
     "std_logic": {
-        "prefix": "std",
+        "prefix": "std, sl",
         "description": "std_logic Type",
         "body": "std_logic"
     },
@@ -298,7 +298,7 @@
         "body": "std_logic := '0';"
     },
     "std_logic_vector": {
-        "prefix": "stdv",
+        "prefix": "stdv, slv",
         "description": "std_logic_vector Type",
         "body": "std_logic_vector(${1:7} ${2|downto,to|} ${3:0})"
     },
